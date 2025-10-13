@@ -1,0 +1,8 @@
+package carShop;
+
+public class Rent {
+	public Car car;
+	public Customer customer;
+	public Saller saller;
+	
+}

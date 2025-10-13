@@ -1,0 +1,10 @@
+package customComputer;
+
+public class Mainboard {
+// Mainboard,Cpu,Ram,Hdd,Monitor,Case,Keyboard,Mouse,PowerSupply
+	public String name;
+	public String brand;
+	public int maxRam;
+	public double price;
+	
+}

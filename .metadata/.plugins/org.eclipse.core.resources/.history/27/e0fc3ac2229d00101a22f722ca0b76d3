@@ -1,0 +1,16 @@
+package carShop;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Car bmwBlue2023=new Car();
+		bmwBlue2023.name="BMW 5.20 TDI 2023 Blue";
+		bmwBlue2023.brand="BMW";
+		bmwBlue2023.model=2023;
+		bmwBlue2023.color="Metalik Mavi";
+		bmwBlue2023.automaticGear=true;
+		
+		
+	}
+
+}

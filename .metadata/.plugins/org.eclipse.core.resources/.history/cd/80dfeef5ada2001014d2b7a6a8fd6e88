@@ -1,0 +1,18 @@
+package customComputer;
+
+public class Mainboard {
+// Mainboard,Cpu,Ram,Hdd,Monitor,Case,Keyboard,Mouse,PowerSupply
+	public String name;
+	public String brand;
+	public int maxRam;
+	public double price;
+	public boolean vgaOut;
+	public void print() {
+		System.out.println("---Anakart Özellikleri-----");
+		System.out.println("Anakart :"+this.name);
+		System.out.println("Marka :"+this.brand);
+		System.out.println("Ram Kapasitesi :"+this.maxRam+" GB");
+		System.out.println("VGA Çýkýþý :"+(this.vgaOut?"Var":"YOK"));
+		System.out.println("Fiyat :"+this.price+" TL");
+	}
+}
