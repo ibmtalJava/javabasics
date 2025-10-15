@@ -18,8 +18,17 @@ public class Main {
 		anakart1.print();
 		anakart2.print();
 		anakart3.print();
-		Cpu cpu1=new Cpu("�ntel I9",4500000, 8);
+		Cpu cpu1=new Cpu("İntel I9",4500000, 8);
 		Cpu cpu2=new Cpu("Amd Rayzen 5", 58000, 8);
+		
+		Computer bilg=new Computer();
+		bilg.name="Apple 16\" MacBook Pro: Apple M4 Max chip with 16‑core CPU and 40‑core GPU, 48GB, 1TB SSD - Gümüş";
+		bilg.price=54567.48;
+		bilg.operatingSystem="Windows 11 Pro";
+		bilg.mainboard=anakart1;
+		bilg.cpu=cpu1;
+		System.out.println(bilg.name);
+		bilg.mainboard.print();
 		
 	}
 
