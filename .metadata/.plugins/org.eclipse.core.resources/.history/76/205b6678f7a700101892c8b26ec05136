@@ -1,7 +1,0 @@
-package customComputer;
-
-public class Cpu {
-	public String name;
-	public int hz;
-	public int coreCount;
-}

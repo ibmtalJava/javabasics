@@ -8,4 +8,12 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="entities.Owner"/>
     <fullyQualifiedTypeName name="entities.House"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="entities.Prescription"/>
+    <fullyQualifiedTypeName name="entities.Medicane"/>
+    <fullyQualifiedTypeName name="entities.Student"/>
+    <fullyQualifiedTypeName name="entities.Lesson"/>
+    <fullyQualifiedTypeName name="entities.StudentLesson"/>
+    <fullyQualifiedTypeName name="entities.City"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
